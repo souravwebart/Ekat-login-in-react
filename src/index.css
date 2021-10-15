@@ -1,13 +1,155 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/nats');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  box-sizing: border-box;
 }
+body{
+  height: 100vh;
+  margin: 0;
+}
+.main{
+  width: 1035px;
+  height: 667px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+}
+.Login_container{
+  margin-top: 40px;
+}
+@media only screen and (max-width: 991px){
+  .main{
+    width: 100%;
+    height: min-content;
+    display: block;
+    justify-content: center;
+    margin: 0px !important;
+  }
+  .Login_container{
+    margin-top: 0px;
+  }
+}
+.login_box{
+  width: 375px;
+  height: 667px;
+  background-image: url('./img/BG.png');
+  background-size: cover;
+  display: block;
+  justify-content: center;
+  margin: 0px auto;
+}
+.login_brand img{
+  margin-left: auto;
+  display: block;
+}
+.login__form{
+  width: 288px;
+height: 271px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 45px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+}
+.login_form_input{
+  padding: 41px 41px;
+}
+.login_form_grp {
+  display: flex;
+  border-bottom: 1px solid #3C3C3C;
+  margin-bottom: 10px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff0 !important;
+  background-clip: padding-box;
+  border: none !important;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+color: rgba(71, 71, 71, 0.6);
+
+}
+.form-group img {
+  width: 18px;
+  height: 18px;
+  margin-top: 8px;
+}
+.password-details{
+  display: flex;
+  justify-content: space-between;
+}
+.password-details p{
+height: 10px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+padding-left: 5px;
+}
+.remember_me{
+  display: flex;
+}
+.remember_me img{
+  width: 8px;
+height: 8px;
+}
+.Forgot_password p{
+  font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+}
+.button-login{
+width: 178px;
+height: 39px;
+background: #DB4700;
+box-shadow: -3px -6px 4px rgba(239, 239, 239, 0.4), 3px 6px 4px rgba(196, 196, 196, 0.4);
+border-radius: 15px;
+border: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+color: #FFFFFF;
+font-family: 'NATS', sans-serif;                                          
+}
+.signup__details p{
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 11px;
+color: #3C3C3C;
+padding-top: 2px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+.signup__details p a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  color: #3C3C3C;
+  padding-top: 2px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  }
