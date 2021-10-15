@@ -153,3 +153,13 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   }
+  input:focus{
+    outline: none;
+}
+*:focus {
+  outline: none;
+}
+form .form-control:focus{
+  border-color: #ced4da;
+  box-shadow: none;
+}
