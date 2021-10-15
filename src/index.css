@@ -92,6 +92,7 @@ color: rgba(71, 71, 71, 0.6);
 .password-details{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 .password-details p{
 height: 10px;
